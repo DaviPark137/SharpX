@@ -1,18 +1,16 @@
 # SharpX
 # Plataforma Web Inteligente para la Prevención de Ludopatía y Análisis Estadístico
 
-## 1. Problema
-El auge de las plataformas de apuestas digitales y la proliferación de "pseudotipsters" en redes sociales han impulsado comportamientos impulsivos y desinformación financiera en jóvenes universitarios. La falta de herramientas técnicas accesibles impide calcular el Valor Esperado (EV) y reconocer patrones de riesgo conductual (como la persecución de pérdidas), derivando en pérdidas patrimoniales y ludopatía digital.
+## Problema y objetivo
 
-## 2. Objetivos
-### Objetivo General
-Desarrollar una plataforma web inteligente que integre cálculo probabilístico de Valor Esperado (EV) y asistencia conductual mediante Inteligencia Artificial para mitigar la toma de decisiones impulsivas y prevenir la ludopatía en apostadores deportivos en México.
+### Problema
+El auge de las plataformas de apuestas digitales y la proliferación de "pseudotipsters" en redes sociales han impulsado conductas impulsivas y desinformación financiera en jóvenes universitarios en México. La falta de herramientas técnicas accesibles impide calcular el Valor Esperado ($EV$) y reconocer sesgos cognitivos como la persecución de pérdidas, derivando en pérdidas patrimoniales y ludopatía digital recurrente.
 
-### Objetivos Particulares
-1. Diseñar la arquitectura de software y el modelo de datos relacional para el registro estructurado de operaciones de apuestas, métricas de rendimiento y trazabilidad del perfil del usuario.
-2. Implementar un motor algorítmico que procese cuotas de APIs deportivas para calcular el Valor Esperado (EV) y el rendimiento estadístico (Yield y Efectividad).
-3. Integrar un agente conversacional basado en Modelos de Lenguaje (LLM) con directivas éticas de juego responsable y validación semántica de justificación técnica previa a cada registro.
-4. Validar la efectividad del sistema y la usabilidad de la interfaz mediante pruebas de estrés algorítmico, auditorías de prompts preventivos y simulaciones de usuario.
+### Objetivo
+Desarrollar e implementar en la plataforma SharpX un módulo con evaluación semántica por IA y cálculo de Valor Esperado ($EV$) que obligue a la justificación analítica de pronósticos, logrando reducir al menos en un 30% las decisiones de juego impulsivas en la cohorte piloto durante el ciclo académico 2026B.
+
+### Siguiente paso
+Diseñar y validar el esquema de base de datos relacional y los endpoints de la API REST para el registro estructurado de apuestas simuladas y la captura obligatoria de la justificación técnica previa.
 
 ## 3. Alcance
 * Cobertura inicial en fútbol profesional (Liga MX y principales ligas internacionales) con cuotas obtenidas vía API REST.
